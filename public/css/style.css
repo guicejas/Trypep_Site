@@ -62,10 +62,10 @@ img{max-width:100%;}
  }
   .menu li a{
   	 display:block;
-	 font-size:0.8em;
+	 font-size:1em;
 	 font-weight:600;
-	 margin:5px 15px;
-	 color:#727E8D;
+	 margin:10px 15px;
+	 color:rgb(162, 166, 172);
 	 -webkit-transition: all 0.3s ease;
 	  -moz-transition: all 0.3s ease;
 	  -o-transition: all 0.3s ease;
@@ -829,12 +829,18 @@ input:focus {
 	opacity:1;
 }
 /********* Footer **********/
+.guille{
+  background:#151c27;
+  border-top:10px solid #0d131a;
+  padding-bottom:2em;
+}
 .footer{
-   background:#151c27;
-   border-top:10px solid #0d131a;
+  background:#151c27;
+  border-top:10px solid #0d131a;
   padding-bottom:2em;
 }
 .footer p{
+ background:#232d3b;
  color:#727E8D;
 }
 .footer_logo img{
@@ -939,6 +945,7 @@ input:focus {
 	text-align:center;
 	padding:1em 0;
 	background:#131A25;
+	background-color:#0054a6;
 	position:relative;	
 }
 .copy-right p{
